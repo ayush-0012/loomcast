@@ -1,0 +1,6 @@
+{
+  "extends": "@loomcast/config/typescript/base",
+  "include": [
+    "src/**/*.ts"
+  ]
+}

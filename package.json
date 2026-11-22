@@ -1,0 +1,17 @@
+{
+  "name": "loomcast",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.3.0",
+  "scripts": {
+    "dev": "turbo run dev --filter=@loomcast/mobile",
+    "android": "pnpm --filter @loomcast/mobile android",
+    "ios": "pnpm --filter @loomcast/mobile ios",
+    "typecheck": "turbo run typecheck",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.11.13",
+    "typescript": "~6.0.3"
+  }
+}
