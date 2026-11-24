@@ -1,4 +1,5 @@
 node_modules/
+.pnpm-store/
 .expo/
 .turbo/
 dist/
@@ -33,5 +34,6 @@ coverage/
 .claude/
 .cursor/
 .github/copilot-instructions.md
+skills-lock.json
 CLAUDE.md
 GEMINI.md
